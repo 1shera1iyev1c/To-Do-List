@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 102, 255);
+}
+button{
+    cursor: pointer;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.name{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    color: antiquewhite;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.form{
+    align-items: center;
+}
+.input{
+    width: 850px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    outline: none;
+}
+.btn{
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 10px ;
+    border: 2px solid rgb(62, 62, 243);
+    border-radius: 10px;
+    background-color: rgb(62, 62, 243);
+    color: #fff;
+    font-size: 20px;
+}
+.title{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    font-size: 30px;
+}
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.titlee{
+    width: 890px;
+    border: 1px solid gray;
+    padding: 5px 15px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    margin-left: 10px;
+    background-color: #fff;
+}
+.del{
+    border: none;
+    outline: none;
+    height: 45px;
+    padding: 10px ;
+    border: 2px solid red;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 5px;
+}
+.item-del{
+    display: none;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+    padding-top: 50px;
+}
+.odilbek{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    display: block;
+    margin-right: 10px;
+}
+a{
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+    text-decoration: none;
+    display: block;
+    margin-right: 50px;
+    font-size: 20px;
+    color: rgb(0, 247, 255);
+}
+.check:checked + .titlee{
+    text-decoration: line-through;
+}

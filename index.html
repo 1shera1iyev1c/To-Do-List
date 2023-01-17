@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1 class="name">To-Do-List</h1>
+        <form class="form">
+            <input type="text" class="input" placeholder="What's your tasks today?" required>
+            <button class="btn">+ Add item</button>
+        </form>
+        <h2 class="title">Tasks <span class="span"></span></h2>
+        <ul class="list">
+            
+        </ul>
+        <div class="content">
+            <p class="odilbek">Powered by </p> <a target="_blank" class="link" href="https://t.me/sheraliyev1c">Odilbek</a>
+        </div>
+    </div>
+
+    <template id="template">
+        <li class="item">
+            <input type="checkbox" class="check">
+            <h3 class="titlee"></h3>
+            <button class="del">Delete</button>
+        </li>
+    </template>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
